@@ -10,41 +10,41 @@ import {
 // --- FOR LOCAL DEVELOPMENT ---
 // 1. Make sure your 'CRTA-Cert.jpg' file is in the 'src/assets' folder of your project.
 // 2. Uncomment the line below to import your local image.
-// import crtaCertImage from './assets/CRTA-Cert.jpg';
+import crtaCertImage from './assets/CRTA-Cert.jpg';
 
 // // NOTE: The local imports below are commented out for the preview environment.
 // // When you run this project locally, you can uncomment them and remove the URLs.
-// import bashLogo from './assets/Bash.png';
-// import burpSuiteLogo from './assets/Burp Suite.png';
-// import kaliLinuxLogo from './assets/Kali Linux.png';
-// import metasploitLogo from './assets/Metasploit.png';
-// import nmapLogo from './assets/Nmap.png';
-// import owaspLogo from './assets/OWASP.png';
-// import owaspZapLogo from './assets/OWASPzap.png';
-// import pythonLogo from './assets/Python.png';
-// import nessusLogo from './assets/Tenable Nessus.png';
-// import wiresharkLogo from './assets/Wireshark.png';
-// import awsLogo from './assets/AWS.png';
-// import hashcatLogo from './assets/Hashcat.png';
-// import powershellLogo from './assets/PowerShell.png';
+import bashLogo from './assets/Bash.png';
+import burpSuiteLogo from './assets/Burp Suite.png';
+import kaliLinuxLogo from './assets/Kali Linux.png';
+import metasploitLogo from './assets/Metasploit.png';
+import nmapLogo from './assets/Nmap.png';
+import owaspLogo from './assets/OWASP.png';
+import owaspZapLogo from './assets/OWASPzap.png';
+import pythonLogo from './assets/Python.png';
+import nessusLogo from './assets/Tenable Nessus.png';
+import wiresharkLogo from './assets/Wireshark.png';
+import awsLogo from './assets/AWS.png';
+import hashcatLogo from './assets/Hashcat.png';
+import powershellLogo from './assets/PowerShell.png';
 
 
 // --- FOR PREVIEW ENVIRONMENT ---
 // These use online images as placeholders so the preview can run without errors.
-const crtaCertImage = "https://i.imgur.com/3aGfT5A.png";
-const bashLogo = "https://www.svgrepo.com/show/373434/bash.svg";
-const burpSuiteLogo = "https://cdn.worldvectorlogo.com/logos/burpsuite.svg";
-const kaliLinuxLogo = "https://www.kali.org/images/kali-logo.svg";
-const metasploitLogo = "https://www.metasploit.com/assets/images/framework_logo.svg";
-const nmapLogo = "https://cdn.worldvectorlogo.com/logos/nmap.svg";
-const owaspLogo = "https://owasp.org/assets/images/logo.svg";
-const owaspZapLogo = "https://www.zaproxy.org/images/zap-logo-256.png";
-const pythonLogo = "https://www.svgrepo.com/show/303208/python-logo.svg";
-const nessusLogo = "https://static.tenable.com/prod/images/tenable-nessus-logo.svg";
-const wiresharkLogo = "https://cdn.worldvectorlogo.com/logos/wireshark.svg";
-const awsLogo = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonaws.svg";
-const hashcatLogo = "https://hashcat.net/img/logo.svg";
-const powershellLogo = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/powershell.svg";
+// const crtaCertImage = "https://i.imgur.com/3aGfT5A.png";
+// const bashLogo = "https://www.svgrepo.com/show/373434/bash.svg";
+// const burpSuiteLogo = "https://cdn.worldvectorlogo.com/logos/burpsuite.svg";
+// const kaliLinuxLogo = "https://www.kali.org/images/kali-logo.svg";
+// const metasploitLogo = "https://www.metasploit.com/assets/images/framework_logo.svg";
+// const nmapLogo = "https://cdn.worldvectorlogo.com/logos/nmap.svg";
+// const owaspLogo = "https://owasp.org/assets/images/logo.svg";
+// const owaspZapLogo = "https://www.zaproxy.org/images/zap-logo-256.png";
+// const pythonLogo = "https://www.svgrepo.com/show/303208/python-logo.svg";
+// const nessusLogo = "https://static.tenable.com/prod/images/tenable-nessus-logo.svg";
+// const wiresharkLogo = "https://cdn.worldvectorlogo.com/logos/wireshark.svg";
+// const awsLogo = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonaws.svg";
+// const hashcatLogo = "https://hashcat.net/img/logo.svg";
+// const powershellLogo = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/powershell.svg";
 
 
 // New StarBorder Component
