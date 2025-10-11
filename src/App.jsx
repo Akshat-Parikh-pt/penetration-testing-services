@@ -10,41 +10,41 @@ import {
 // --- FOR LOCAL DEVELOPMENT ---
 // 1. Make sure your 'CRTA-Cert.jpg' file is in the 'src/assets' folder of your project.
 // 2. Uncomment the line below to import your local image.
-import crtaCertImage from './assets/CRTA-Cert.jpg';
+// import crtaCertImage from './assets/CRTA-Cert.jpg';
 
 // // NOTE: The local imports below are commented out for the preview environment.
 // // When you run this project locally, you can uncomment them and remove the URLs.
-import bashLogo from './assets/Bash.png';
-import burpSuiteLogo from './assets/Burp Suite.png';
-import kaliLinuxLogo from './assets/Kali Linux.png';
-import metasploitLogo from './assets/Metasploit.png';
-import nmapLogo from './assets/Nmap.png';
-import owaspLogo from './assets/OWASP.png';
-import owaspZapLogo from './assets/OWASPzap.png';
-import pythonLogo from './assets/Python.png';
-import nessusLogo from './assets/Tenable Nessus.png';
-import wiresharkLogo from './assets/Wireshark.png';
-import awsLogo from './assets/AWS.png';
-import hashcatLogo from './assets/Hashcat.png';
-import powershellLogo from './assets/PowerShell.png';
+// import bashLogo from './assets/Bash.png';
+// import burpSuiteLogo from './assets/Burp Suite.png';
+// import kaliLinuxLogo from './assets/Kali Linux.png';
+// import metasploitLogo from './assets/Metasploit.png';
+// import nmapLogo from './assets/Nmap.png';
+// import owaspLogo from './assets/OWASP.png';
+// import owaspZapLogo from './assets/OWASPzap.png';
+// import pythonLogo from './assets/Python.png';
+// import nessusLogo from './assets/Tenable Nessus.png';
+// import wiresharkLogo from './assets/Wireshark.png';
+// import awsLogo from './assets/AWS.png';
+// import hashcatLogo from './assets/Hashcat.png';
+// import powershellLogo from './assets/PowerShell.png';
 
 
 // --- FOR PREVIEW ENVIRONMENT ---
 // These use online images as placeholders so the preview can run without errors.
-// const crtaCertImage = "https://i.imgur.com/3aGfT5A.png";
-// const bashLogo = "https://www.svgrepo.com/show/373434/bash.svg";
-// const burpSuiteLogo = "https://cdn.worldvectorlogo.com/logos/burpsuite.svg";
-// const kaliLinuxLogo = "https://www.kali.org/images/kali-logo.svg";
-// const metasploitLogo = "https://www.metasploit.com/assets/images/framework_logo.svg";
-// const nmapLogo = "https://cdn.worldvectorlogo.com/logos/nmap.svg";
-// const owaspLogo = "https://owasp.org/assets/images/logo.svg";
-// const owaspZapLogo = "https://www.zaproxy.org/images/zap-logo-256.png";
-// const pythonLogo = "https://www.svgrepo.com/show/303208/python-logo.svg";
-// const nessusLogo = "https://static.tenable.com/prod/images/tenable-nessus-logo.svg";
-// const wiresharkLogo = "https://cdn.worldvectorlogo.com/logos/wireshark.svg";
-// const awsLogo = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonaws.svg";
-// const hashcatLogo = "https://hashcat.net/img/logo.svg";
-// const powershellLogo = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/powershell.svg";
+const crtaCertImage = "https://i.imgur.com/3aGfT5A.png";
+const bashLogo = "https://www.svgrepo.com/show/373434/bash.svg";
+const burpSuiteLogo = "https://cdn.worldvectorlogo.com/logos/burpsuite.svg";
+const kaliLinuxLogo = "https://www.kali.org/images/kali-logo.svg";
+const metasploitLogo = "https://www.metasploit.com/assets/images/framework_logo.svg";
+const nmapLogo = "https://cdn.worldvectorlogo.com/logos/nmap.svg";
+const owaspLogo = "https://owasp.org/assets/images/logo.svg";
+const owaspZapLogo = "https://www.zaproxy.org/images/zap-logo-256.png";
+const pythonLogo = "https://www.svgrepo.com/show/303208/python-logo.svg";
+const nessusLogo = "https://static.tenable.com/prod/images/tenable-nessus-logo.svg";
+const wiresharkLogo = "https://cdn.worldvectorlogo.com/logos/wireshark.svg";
+const awsLogo = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonaws.svg";
+const hashcatLogo = "https://hashcat.net/img/logo.svg";
+const powershellLogo = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/powershell.svg";
 
 
 // New StarBorder Component
@@ -860,48 +860,50 @@ export default function App() {
                     <div className="flex-grow flex flex-col justify-center items-center pt-20 pb-6 relative z-10 w-full">
                         <div id="hero-content" className="w-full max-w-screen-2xl mx-auto px-4">
                             <div className="grid md:grid-cols-5 gap-8 items-center">
-                                <div className="md:col-span-3 text-center md:text-left">
+                                <div className="md:col-span-3 text-center md:text-left md:-mt-4">
                                     <h1 className="text-5xl md:text-7xl font-bold fade-in-up reveal"><span className="accent-green">Akshat Parikh</span></h1>
                                     <p className="mt-4 text-xl md:text-2xl text-text-secondary fade-in-up reveal delay-1">1+ years of experience as a Penetration Tester and Cybersecurity Specialist</p>
                                     <p className="mt-6 text-text-secondary md:text-lg fade-in-up reveal delay-2">A cybersecurity professional with over a year of hands-on experience in penetration testing, and vulnerability assessment. I specialize in identifying and exploiting security flaws in web applications, networks, and systems to help organizations strengthen their digital defenses. With a strong foundation in offensive security methodologies and a deep understanding of modern threat landscapes, I deliver comprehensive security assessments that go beyond automated scans. </p>
                                 </div>
-                                <div className="hidden md:col-span-2 md:flex justify-end p-4">
-                                    <div className="flex flex-col items-center gap-4 reveal delay-3">
+                                <div className="hidden md:col-span-2 md:flex justify-center p-4">
+                                    <div className="flex flex-col items-center gap-2 reveal delay-3 md:ml-16">
                                         <div className="w-full max-w-xs">
                                             <StarBorder color="var(--primary-green)" speed="3s" thickness={3}>
                                                 <h3 className="font-bold text-center accent-green" style={{ fontSize: '17px' }}>Secure Your Business Today</h3>
                                             </StarBorder>
                                         </div>
-                                        <div className="w-60 h-auto">
+                                        <div className="w-72 h-auto">
                                             <div className="tech-viz">
-                                                <svg className="w-full h-full" viewBox="0 0 200 250" style={{ transform: "perspective(1000px)" }}>
+                                                <svg className="w-full h-full" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <defs>
-                                                        <filter id="glow-shield" x="-50%" y="-50%" width="200%" height="200%">
-                                                            <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+                                                        <filter id="glow-icon" x="-50%" y="-50%" width="200%" height="200%" filterUnits="userSpaceOnUse">
+                                                            <feGaussianBlur stdDeviation="0.8" result="cBlur" />
                                                             <feMerge>
-                                                                <feMergeNode in="coloredBlur"/>
-                                                                <feMergeNode in="SourceGraphic"/>
+                                                                <feMergeNode in="cBlur" />
+                                                                <feMergeNode in="SourceGraphic" />
                                                             </feMerge>
                                                         </filter>
                                                         <style>
                                                             {`
-                                                                .shield-path-anim { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw-shield-anim 2s ease-out forwards 0.5s; }
-                                                                .lock-anim { opacity: 0; transform-origin: center; animation: appear-lock-anim 0.5s ease-out forwards 2.5s, lock-rotate-anim 8s linear infinite; }
+                                                                .shield-path-anim { stroke-dasharray: 130; stroke-dashoffset: 130; animation: draw-shield-anim 2s ease-out forwards 0.5s; }
+                                                                .lock-anim { opacity: 0; transform-origin: center; animation: appear-lock-anim 0.5s ease-out forwards 2.5s, lock-rotate-anim 8s linear infinite; transform-box: fill-box; }
                                                                 .scan-line-anim { opacity: 0; animation: scan-effect-anim 3s ease-in-out infinite 2.8s; }
                                                                 @keyframes draw-shield-anim { to { stroke-dashoffset: 0; } }
                                                                 @keyframes appear-lock-anim { 0% { opacity: 0; transform: scale(0.8); } 100% { opacity: 1; transform: scale(1); } }
                                                                 @keyframes lock-rotate-anim { 0% { transform: rotateY(0deg); } 100% { transform: rotateY(360deg); } }
-                                                                @keyframes scan-effect-anim { 0% { transform: translateY(-100px); opacity: 0; } 25% { opacity: 0.7; } 50% { transform: translateY(100px); opacity: 0; } 75% { opacity: 0.7; } 100% { transform: translateY(-100px); opacity: 0; } }
+                                                                @keyframes scan-effect-anim { 0% { transform: translateY(-8px); opacity: 0; } 25% { opacity: 0.7; } 50% { transform: translateY(8px); opacity: 0; } 75% { opacity: 0.7; } 100% { transform: translateY(-8px); opacity: 0; } }
                                                             `}
                                                         </style>
                                                     </defs>
-                                                    <g style={{ filter: 'url(#glow-shield)' }}>
-                                                        <path className="shield-path-anim" d="M100 10 L190 50 V 140 C 190 180, 150 220, 100 240 C 50 220, 10 180, 10 140 V 50 Z" stroke="var(--primary-green)" strokeWidth="5" fill="rgba(5, 193, 104, 0.1)"/>
-                                                        <rect className="scan-line-anim" x="30" y="125" width="140" height="3" fill="var(--light-green)" />
-                                                        <g className="lock-anim" fill="none" stroke="var(--light-green)" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round">
-                                                            <rect x="78" y="115" width="44" height="34" rx="7" />
-                                                            <path d="M88 115 V 98 C 88 85, 112 85, 112 98 V 115" />
-                                                            <circle cx="100" cy="132" r="4" fill="var(--light-green)" stroke="none"/>
+                                                    <g filter="url(#glow-icon)">
+                                                        <path className="shield-path-anim" d="M12 22S19 18 19 12V5L12 2L5 5V12C5 18 12 22 12 22Z" stroke="#05c168" strokeWidth="1.0" fill="rgba(5, 193, 104, 0.05)" />
+                                                        <rect className="scan-line-anim" x="6" y="12" width="12" height="0.5" fill="var(--light-green)" />
+                                                        <g className="lock-anim">
+                                                            <g transform="translate(12 12.5) scale(0.8) translate(-12 -12.5)" stroke="#05c168" strokeWidth="1.0" strokeLinecap="round" strokeLinejoin="round">
+                                                                <path d="M10.5 11V9.5C10.5 8.67157 11.1716 8 12 8C12.8284 8 13.5 8.67157 13.5 9.5V11" fill="rgba(5, 193, 104, 0.05)" />
+                                                                <rect x="9" y="11" width="6" height="5" rx="1" fill="rgba(5, 193, 104, 0.05)" />
+                                                                <path d="M12 13.5V13.5" strokeWidth="2" />
+                                                            </g>
                                                         </g>
                                                     </g>
                                                 </svg>
@@ -992,24 +994,9 @@ export default function App() {
                                     <div className="mb-4">
                                         <h4 className="font-bold text-white mb-2 flex items-center gap-2"><FileText className="w-5 h-5 accent-green" />What you get</h4>
                                         <ul className="space-y-2 text-sm text-text-secondary pl-2">
-                                            <li className="flex items-start">
-                                                <ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" />
-                                                <span>
-                                                    <strong className="text-white">Clear and actionable report</strong>: Highlights the most critical issues with risk ratings
-                                                </span>
-                                            </li>
-                                            <li className="flex items-start">
-                                                <ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" />
-                                                <span>
-                                                    <strong className="text-white">Actionable First Steps</strong>: Clear guidance on the most important issues your team needs to fix first to see immediate security improvement.
-                                                </span>
-                                            </li>
-                                            <li className="flex items-start">
-                                                <ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" />
-                                                <span>
-                                                    <strong className="text-white">Fast turnaround</strong>: Receive your report within 2–3 days
-                                                </span>
-                                            </li>
+                                            <li className="flex items-start"><ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" /><span><strong className="text-white">Clear and actionable report</strong>: Highlights the most critical issues with risk ratings</span></li>
+                                            <li className="flex items-start"><ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" /><span><strong className="text-white">Actionable First Steps</strong>: Clear guidance on the most important issues your team needs to fix first to see immediate security improvement.</span></li>
+                                            <li className="flex items-start"><ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" /><span><strong className="text-white">Fast turnaround</strong>: Receive your report within 2–3 days</span></li>
                                         </ul>
                                     </div>
                                     <div className="mt-auto">
@@ -1064,24 +1051,9 @@ export default function App() {
                                     <div className="mb-4">
                                         <h4 className="font-bold text-white mb-2 flex items-center gap-2"><FileText className="w-5 h-5 accent-green" />What you get</h4>
                                         <ul className="space-y-2 text-sm text-text-secondary pl-2">
-                                            <li className="flex items-start">
-                                                <ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" />
-                                                <span>
-                                                    <strong className="text-white">Comprehensive Technical Report</strong>: A detailed report with technical findings and detailed remediation steps
-                                                </span>
-                                            </li>
-                                            <li className="flex items-start">
-                                                <ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" />
-                                                <span>
-                                                    <strong className="text-white">Risk-level assessments</strong>: Understanding of which vulnerabilities are most critical and need immediate attention
-                                                </span>
-                                            </li>
-                                            <li className="flex items-start">
-                                                <ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" />
-                                                <span>
-                                                    <strong className="text-white">Optional retesting</strong>: after fixes to ensure issues are resolved
-                                                </span>
-                                            </li>
+                                            <li className="flex items-start"><ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" /><span><strong className="text-white">Comprehensive Technical Report</strong>: A detailed report with technical findings and detailed remediation steps</span></li>
+                                            <li className="flex items-start"><ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" /><span><strong className="text-white">Risk-level assessments</strong>: Understanding of which vulnerabilities are most critical and need immediate attention</span></li>
+                                            <li className="flex items-start"><ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" /><span><strong className="text-white">Optional retesting</strong>: after fixes to ensure issues are resolved</span></li>
                                         </ul>
                                     </div>
                                     <div className="mt-auto">
@@ -1135,24 +1107,9 @@ export default function App() {
                                     <div className="mb-4">
                                         <h4 className="font-bold text-white mb-2 flex items-center gap-2"><FileText className="w-5 h-5 accent-green" />What You Get:</h4>
                                         <ul className="space-y-2 text-sm text-text-secondary pl-2">
-                                            <li className="flex items-start">
-                                                <ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" />
-                                                <span>
-                                                    <strong className="text-white">Network Security Architecture Report</strong>: A clear overview of your network's security posture and where the key weaknesses lie.
-                                                </span>
-                                            </li>
-                                            <li className="flex items-start">
-                                                <ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" />
-                                                <span>
-                                                    <strong className="text-white">Prioritized Vulnerability List</strong>: Details on all misconfigurations, vulnerable services, and weak credentials found, ranked by risk.
-                                                </span>
-                                            </li>
-                                            <li className="flex items-start">
-                                                <ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" />
-                                                <span>
-                                                    <strong className="text-white">Post-fix retesting (optional)</strong>: To confirm all issues have been resolved
-                                                </span>
-                                            </li>
+                                            <li className="flex items-start"><ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" /><span><strong className="text-white">Network Security Architecture Report</strong>: A clear overview of your network's security posture and where the key weaknesses lie.</span></li>
+                                            <li className="flex items-start"><ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" /><span><strong className="text-white">Prioritized Vulnerability List</strong>: Details on all misconfigurations, vulnerable services, and weak credentials found, ranked by risk.</span></li>
+                                            <li className="flex items-start"><ShieldCheck className="w-4 h-4 mr-2 mt-1 accent-green flex-shrink-0" /><span><strong className="text-white">Post-fix retesting (optional)</strong>: To confirm all issues have been resolved</span></li>
                                         </ul>
                                     </div>
                                     <div className="mt-auto">
